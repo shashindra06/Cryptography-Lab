@@ -1,9 +1,7 @@
 def gcd(a, b):
 
     while b != 0:
-        remainder = a % b
-        a = b
-        b = remainder
+        a, b = b, a % b
 
     return a
 
