@@ -23,3 +23,12 @@ d2 = des(d1, k2)
 d3 = des(d2, k1, True)
 
 print("Decrypted:", binary_to_text(d3))
+
+# Input
+# Enter 8-character plaintext: ABCDEFGH
+# Enter 8-character key 1: 12345678
+# Enter 8-character key 2: 87654321
+# Output
+# Your clean output should be:
+# Encrypted (hex): 1450203D160AFD06
+# Decrypted: ABCDEFGH

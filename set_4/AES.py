@@ -14,3 +14,10 @@ decipher = AES.new(key, AES.MODE_ECB)
 decrypted = decipher.decrypt(encrypted)
 
 print("Decrypted:", decrypted.decode())
+
+# Input
+# Enter 8-character plaintext: ABCDEFGH
+# Enter 8-character key: 12345678
+# Output
+# Encrypted (hex): 96DE603EAED6256F
+# Decrypted: ABCDEFGH
